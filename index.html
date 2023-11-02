@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="iconeguia.png">
+    <title> 34º INFOESTE</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <script src="alerta.js"></script>
+    
+    <div>
+        <h2 id="titulo-menu">INFOESTE - SEMANA DE COMPUTAÇÃO E INFORMÁTICA DA FIPP</h2>
+        <h3 id="titulo-menu">De 24 a 28 de Outubro de 2023</h3>
+        <p id="format-p">Aprofunde seus conhecimentos na área da Tecnologia da Informação!</p>
+        <p id="format-p">Conheça mais sobre as novas propriedades do<a id="link" href="https://www.homehost.com.br/blog/tutoriais/formulario-html/#:~:text=S%C3%A3o%20esses%20os%20novos%20tipos,search%2C%20tel%2C%20e%20url." target="_blank">HTML</a></p>
+        <br>
+        <h3 id="titulo-menu"><a id="link"  href="https://www.unoeste.br/semanas/2022/34infoeste" target="_blank">Clique aqui</a> para saber mais sobre o evento!</h3>
+    </div>
+
+    <form id="fomulario">
+        <fieldset>
+            <legend class="formu">Faça sua Inscrição:</legend>
+            <div>
+                <input class="formdiv" type="text" name="nome" id="nome" placeholder="Digite seu Nome">
+            </div>        
+            <div>
+                <input class="formdiv" type="text" name="e-mail" id="e-mail" placeholder="Digite seu E-mail">
+            </div>
+            <div>
+                <input class="formdiv" type="text" name="telefone" id="telefone" placeholder="Digite seu Telefone">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend class="formu">Você vai Participar como:</legend>
+            <div>
+                <label>
+                    <input type="radio" name="cargo" id="Professor"> Professor
+                </label>         
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="cargo" id="Estudante"> Estudante
+                </label>         
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="cargo" id="Profissional"> Profissional da Área
+                </label>         
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend class="formu">Se Inscreva também em Cursos Extracurriculares:</legend>
+            <div>
+                <label>
+                    <input type="checkbox" name="cursos" id="Opção 1"> Curso: HTML5/CSS3
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" name="cursos" id="Opção 2"> Curso: UX/UI
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" name="cursos" id="Opção 2"> Curso: Adobe Photoshop
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" name="cursos" id="Opção 2"> Curso: Adobe Illustrator
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" name="cursos" id="Opção 2"> Curso: Coreldraw
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" name="cursos" id="Opção 2"> Curso: Design
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" name="cursos" id="Opção 2"> Curso: Figma
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <label class="formu">Escolha o Período do(s) Curso(s) Extracurricular(es):</label>
+            <div>
+                <select class="select" id="Período">
+                    <option value="Integral">Integral</option>
+                    <option value="Diurno">Diurno</option>
+                    <option value="Noturno">Noturno</option>         
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset> 
+            <label class="formu">Escolha a Data para a Relização do(s) Curso(s):</label>
+            <div>
+                <input id="date" type="date" name="data"/>
+            </div>
+
+
+        </fieldset>
+
+        <fieldset>
+            <label class="formu">Deixe sua Sugestão para o Próximo Evento:</label>
+            <br>
+            <textarea class="textarea" name="Sugestão" id="Sugestão" placeholder="Digite sua Mensagem"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend class="formu">Finalizar Cadastro</legend>
+            <div>
+                <button type="submit" onclick="funcao1()" value="Exibir Alert">Enviar</button>
+            </div>
+        </fieldset>
+
+      
+    
+
+        
+       
+    </form>
+
+        
+</body>
+</html>
+
+
